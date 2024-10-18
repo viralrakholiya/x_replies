@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Morning Texts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .text-box {
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .text-box:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="width:50%;">
+            <div >
+                <h2>Click to Copy Good Morning Text</h2>
+                <div class="text-box" onclick="copyText(this)">Good morning! Wishing you a day full of success</div>
+                <div class="text-box" onclick="copyText(this)">Rise and shine! Today’s a new opportunity</div>
+                <div class="text-box" onclick="copyText(this)">Good morning! Let’s make today great</div>
+                <div class="text-box" onclick="copyText(this)">Wishing you a fresh and joyful start to the day </div>
+                <div class="text-box" onclick="copyText(this)">Good morning! Time to seize the day</div>
+                <div class="text-box" onclick="copyText(this)">Hope your morning is filled with positivity and energy</div>
+                <div class="text-box" onclick="copyText(this)">Good morning! Let’s conquer the day ahead</div>
+                <div class="text-box" onclick="copyText(this)">Sending you bright and happy morning vibes </div>
+                <div class="text-box" onclick="copyText(this)">Good morning! Start your day with a smile </div>
+                <div class="text-box" onclick="copyText(this)">May your morning be as bright as your dreams</div>
+            </div>
+            <div style="display: none;">
+                <h2>Click to Copy Good afternoon Text</h2>
+                <div class="text-box" onclick="copyText(this)">Good afternoon! Hope your day is going well</div>
+                <div class="text-box" onclick="copyText(this)">Wishing you a productive and enjoyable afternoon</div>
+                <div class="text-box" onclick="copyText(this)">Good afternoon! Take a moment to relax</div>
+                <div class="text-box" onclick="copyText(this)">Hope you're having a great afternoon</div>
+                <div class="text-box" onclick="copyText(this)">Good afternoon! Keep up the great work</div>
+                <div class="text-box" onclick="copyText(this)">Enjoy your afternoon! You deserve a break</div>
+                <div class="text-box" onclick="copyText(this)">Good afternoon! Let’s make the most of the rest of the day</div>
+                <div class="text-box" onclick="copyText(this)">Wishing you a bright and cheerful afternoon</div>
+                <div class="text-box" onclick="copyText(this)">Good afternoon! May your day be filled with positivity</div>
+                <div class="text-box" onclick="copyText(this)">Hope your afternoon is as wonderful as you are</div>
+            </div> 
+            <div style="display: none;">
+                <h2>Click to Copy Good Evening Text</h2>
+                <div class="text-box" onclick="copyText(this)">Good evening! Hope you’re having a relaxing night</div>
+                <div class="text-box" onclick="copyText(this)">Wishing you a peaceful and cozy evening</div>
+                <div class="text-box" onclick="copyText(this)">Good evening! Time to unwind and relax</div>
+                <div class="text-box" onclick="copyText(this)">Hope your evening is calm and filled with joy</div>
+                <div class="text-box" onclick="copyText(this)">Good evening! Have a wonderful night ahead</div>
+                <div class="text-box" onclick="copyText(this)">Wishing you a restful and beautiful evening</div>
+                <div class="text-box" onclick="copyText(this)">Good evening! Take it easy and enjoy the stars</div>
+                <div class="text-box" onclick="copyText(this)">Hope you have a serene and joyful evening</div>
+                <div class="text-box" onclick="copyText(this)">Enjoy your evening! You deserve the peace</div>
+                <div class="text-box" onclick="copyText(this)">Good evening! May your night be as peaceful as the sky</div>
+            </div>
+        </div>
+        <div style="width:50%;">
+            <h2>Click to Copy "Nice Information" Text</h2>
+            <div class="text-box" onclick="copyText(this)">Nice information! Thanks for sharing.</div>
+            <div class="text-box" onclick="copyText(this)">Great info, really helpful</div>
+            <div class="text-box" onclick="copyText(this)">Awesome information, much appreciated</div>
+            <div class="text-box" onclick="copyText(this)">Nice details! This was super useful</div>
+            <div class="text-box" onclick="copyText(this)">Thanks for the valuable info</div>
+            <div class="text-box" onclick="copyText(this)">Nice info, exactly what I needed</div>
+            <div class="text-box" onclick="copyText(this)">Informative and clear, thanks</div>
+            <div class="text-box" onclick="copyText(this)">Great job! Very nice information</div>
+            <div class="text-box" onclick="copyText(this)">This information is gold</div>
+            <div class="text-box" onclick="copyText(this)">Nice information, keep it coming</div>
+        </div>
+        <div style="width:50%;">
+            <h2>Click to Copy "thanks for sharing" Text</h2>
+            <div class="text-box" onclick="copyText(this)">Absolutely right! Couldn't agree more. </div>
+            <div class="text-box" onclick="copyText(this)">You're absolutely right on this one</div>
+            <div class="text-box" onclick="copyText(this)">Totally agree, absolutely right</div>
+            <div class="text-box" onclick="copyText(this)">That's absolutely right, well said</div>
+            <div class="text-box" onclick="copyText(this)">You hit the nail on the head, absolutely right</div>
+            <div class="text-box" onclick="copyText(this)">Absolutely right! It makes perfect sense</div>
+            <div class="text-box" onclick="copyText(this)">Exactly! Absolutely right</div>
+            <div class="text-box" onclick="copyText(this)">I can't argue with that, absolutely right</div>
+            <div class="text-box" onclick="copyText(this)">Absolutely right! That's the way to go</div>
+            <div class="text-box" onclick="copyText(this)">Absolutely right! Love your perspective</div> 
+        </div>
+        <div style="width:50%;">
+            <h2>Click to Copy Praise for Beautiful Lines</h2>
+            <div class="text-box" onclick="copyText(this)">Your words are beautifully deep and meaningful.</div>
+            <div class="text-box" onclick="copyText(this)">Each line you write feels impactful and brilliant.</div>
+            <div class="text-box" onclick="copyText(this)">Your quotes are simple yet filled with wisdom.</div>
+            <div class="text-box" onclick="copyText(this)">Your lines have a way of staying with me.</div>
+            <div class="text-box" onclick="copyText(this)">Every sentence you write is a piece of art.</div>
+            <div class="text-box" onclick="copyText(this)">Your words are clear and elegant.</div>
+            <div class="text-box" onclick="copyText(this)">Your quotes are inspiring and refreshing.</div>
+            <div class="text-box" onclick="copyText(this)">Your writing is powerful yet gentle.</div>
+            <div class="text-box" onclick="copyText(this)">Your lines evoke such beautiful emotions.</div>
+            <div class="text-box" onclick="copyText(this)">Your quotes touch the soul like poetry.</div>
+        </div>
+    </div>
+
+    <script>
+        function copyText(element) {
+            const text = element.innerText;
+            const textarea = document.createElement("textarea");
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea); 
+        }
+    </script>
+
+</body>
+</html>
